@@ -325,7 +325,7 @@ public class LoginForm extends TransparentPanel
 					{
 						try
 						{
-							Util.openLink(new URL("https://dl.dropbox.com/u/87115331/unicraft.fr/skin.html").toURI());
+							Util.openLink(new URL("http://teamunilife.hebergratuit.com/UnicraftLauncher/skin.html").toURI());
 						}
 						catch (Exception e)
 						{

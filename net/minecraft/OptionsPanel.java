@@ -45,7 +45,7 @@ public class OptionsPanel extends JDialog
     forceButton.addActionListener(new ActionListener() {
 		public void actionPerformed(ActionEvent ae) {
 			GameUpdater.forceUpdate = 1;
-			forceButton.setText("Téléchargera la mise à mise à jour");
+			forceButton.setText("Mise à jour activé...");
 			forceButton.setEnabled(false);
 		}
 	});
